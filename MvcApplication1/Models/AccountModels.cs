@@ -40,7 +40,7 @@ namespace MvcApplication1.Models
     {
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "Current password")]
+        [Display(Name = "Current password2")]
         public string OldPassword { get; set; }
 
         [Required]
